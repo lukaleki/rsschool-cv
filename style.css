@@ -154,3 +154,40 @@ footer > ul {
   justify-content: space-between;
   font-size: larger;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%; /* Use full width on smaller screens */
+    margin: 0;
+  }
+
+  .nav-list,
+  .contact > ul,
+  .ul-wrapper,
+  footer > ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the stacked items */
+    gap: 20px; /* Increase gap for vertical layout */
+    padding: 15px 0;
+  }
+
+  .ul-wrapper {
+    align-items: stretch; /* Make skill sections full width */
+  }
+
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .intro > p {
+    font-size: medium; /* Adjust font size for mobile */
+  }
+
+  .project > ul {
+    font-size: medium; /* Adjust font size for mobile */
+    margin-left: 30px;
+    text-align: left;
+  }
+}
