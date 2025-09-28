@@ -16,7 +16,7 @@ My goal is to write clean, maintainable, and efficient code to create new and in
 
 I seek an environment where I can grow as a professional, and I believe RS School and EPAM can help me achieve these goals. My main priority is **clean and readable code**, since unreadable code wastes teammates' time and slows development.
 
-One of my strengths is persistence—I can tackle any task over time. I approach challenges calmly, breaking projects into smaller parts so they do not become overwhelming.
+One of my strengths is persistence, I can tackle any task over time. I approach challenges calmly, breaking projects into smaller parts so they do not become overwhelming.
 
 I have been coding for several years, creating many single-page websites with various designs. Additionally, I have worked on more advanced projects involving **user authentication** and **external APIs**.
 

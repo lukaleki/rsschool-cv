@@ -1,1 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-bg-color: #edf2fb;
+  --darker-primary-color: #c1d3fe;
+  --accent-bg-color: #abc4ff;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  color: rgb(250, 250, 250);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+nav {
+  padding: 5px;
+  background-color: var(--accent-bg-color);
+  border-radius: 3px;
+}
+
+.school-logo {
+  width: 100px;
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list > li {
+  font-size: 15px;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.contact {
+  background-color: var(--darker-primary-color);
+}
+
+.contact > ul {
+  padding: 10px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  background-color: var(--accent-bg-color);
+  padding: 10px;
+}
+
+.intro > p {
+  font-size: larger;
+}
+
+.skills {
+  background-color: var(--darker-primary-color);
+  padding: 10px;
+}
+
+.ul-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-wrapper > ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.ul-wrapper > ul > li {
+  padding: 1px;
+}
+
+.code-example {
+  padding: 10px;
+  background-color: var(--accent-bg-color);
+}

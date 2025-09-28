@@ -1,1 +1,126 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <img
+              class="school-logo"
+              src="./rs-school-logo.svg"
+              alt="rs-school logo"
+            />
+          </li>
+          <li>
+            <a href="#intro"><h2>Self Introduction</h2></a>
+          </li>
+          <li>
+            <a href="#contact"><h2>Contact</h2> </a>
+          </li>
+          <li>
+            <a href="#code-example"><h2>Code Example</h2> </a>
+          </li>
+          <li>
+            <a href="#"><h2>Education/English</h2> </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="#contact" class="contact">
+        <ul>
+          <li>
+            <h3><strong>Email:</strong> lekishvililuka76@gmail.com</h3>
+          </li>
+          <li>
+            <h3><strong>Phone:</strong> 599158424</h3>
+          </li>
+          <li>
+            <h3><strong>Discord:</strong> luka_leki</h3>
+          </li>
+        </ul>
+      </div>
+      <div id="#intro" class="intro">
+        <h2 style="text-align: center">Introduction</h2>
+        <p>
+          I am Luka Lekishvili, an aspiring developer from Georgia. My goal is
+          to write clean, maintainable, and efficient code to create new and
+          interesting projects.
+          <br />
+          I seek an environment where I can grow as a professional, and I
+          believe RS School and EPAM can help me achieve these goals. My main
+          priority is <strong>clean and readable code</strong>, since unreadable
+          code wastes teammates' time and slows development.
+          <br />
+          One of my strengths is persistence, I can tackle any task over time. I
+          approach challenges calmly, breaking projects into smaller parts so
+          they do not become overwhelming.
+          <br />
+          I have been coding for several years, creating many single-page
+          websites with various designs. Additionally, I have worked on more
+          advanced projects involving <strong>user authentication</strong> and
+          <strong>external APIs.</strong>
+        </p>
+      </div>
+      <div id="#skills" class="skills">
+        <h2>Skills</h2>
+        <div class="ul-wrapper">
+          <ul>
+            <h3>Main Skills:</h3>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+          <ul>
+            <h3>Libraries/Frameworks:</h3>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>SASS</li>
+            <li>Tailwind</li>
+          </ul>
+          <ul>
+            <h3>Version Control:</h3>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+          <ul>
+            <h3>Development & Build Tools:</h3>
+            <li>npm</li>
+            <li>Vite</li>
+            <li>ESLint</li>
+            <li>Browser DevTools</li>
+          </ul>
+        </div>
+      </div>
+      <div id="#code-example" class="code-example">
+        <h2>Code Example</h2>
+        <p>
+          function moveZeros(arr) <br />{ <br />
+          let myArr = []; <br />
+          let zeroCount = 0; <br />
+          let arrLength = arr.length; <br />
+          for (let i = 0; i < arrLength; i++) { <br />
+          if (arr[i] === 0) <br />
+          { <br />
+          zeroCount++; <br />
+          } <br />
+          else <br />
+          { <br />
+          myArr.push(arr[i]); <br />
+          } <br />
+          } <br />
+          for (let i = 0; i < zeroCount; i++) { <br />
+          myArr.push(0); <br />
+          } <br />
+          return myArr; <br />
+          }
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
