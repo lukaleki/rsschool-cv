@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-bg-color: #dce6f9;
+  --darker-primary-color: #c1d3fe;
+  --accent-bg-color: #abc4ff;
+  --text-color: rgb(250, 250, 250);
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+nav {
+  padding: 5px;
+  background-color: var(--accent-bg-color);
+  border-radius: 3px;
+  font-size: larger;
+}
+
+.school-logo {
+  width: 100px;
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  background-color: var(--darker-primary-color);
+}
+
+.contact > ul {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  background-color: var(--accent-bg-color);
+  padding: 10px;
+}
+
+.intro > p {
+  font-size: larger;
+}
+
+.skills {
+  background-color: var(--darker-primary-color);
+  padding: 10px;
+}
+
+.ul-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-wrapper > ul {
+  text-align: center;
+}
+
+.ul-wrapper > ul > li {
+  padding: 1px;
+}
+
+.code-example {
+  padding: 10px;
+  background-color: var(--accent-bg-color);
+  justify-items: center;
+}
+
+.code-example > pre {
+  font-size: larger;
+}
+
+.english-education {
+  display: grid;
+  gap: 10px;
+  background-color: var(--darker-primary-color);
+  padding: 10px;
+}
+
+.english-education > div > p {
+  font-size: larger;
+}
+
+.project > ul {
+  font-size: larger;
+}
+
+.movie-button-wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.movie-button {
+  background-color: var(--accent-bg-color);
+  color: var(--text-color);
+  padding: 10px;
+  margin: 10px;
+  font-size: medium;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.movie-button:hover {
+  scale: 1.25;
+}
+
+footer {
+  padding: 10px;
+  background-color: var(--accent-bg-color);
+}
+
+footer > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%; /* Use full width on smaller screens */
+    margin: 0;
+  }
+
+  .nav-list,
+  .contact > ul,
+  .ul-wrapper,
+  footer > ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the stacked items */
+    gap: 20px; /* Increase gap for vertical layout */
+    padding: 15px 0;
+  }
+
+  .ul-wrapper {
+    align-items: stretch; /* Make skill sections full width */
+  }
+
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .intro > p {
+    font-size: medium; /* Adjust font size for mobile */
+  }
+
+  .project > ul {
+    font-size: medium; /* Adjust font size for mobile */
+    margin-left: 30px;
+    text-align: left;
+  }
+}

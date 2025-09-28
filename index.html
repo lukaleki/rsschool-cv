@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <img
+              class="school-logo"
+              src="./rs-school-logo.svg"
+              alt="rs-school logo"
+            />
+          </li>
+          <li>
+            <a href="#intro">Self Introduction</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#code-example">Code Example</a>
+          </li>
+          <li>
+            <a href="#english-education">English/Education</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="contact" class="contact">
+        <ul>
+          <li>
+            <h3><strong>Email:</strong> lekishvililuka76@gmail.com</h3>
+          </li>
+          <li>
+            <h3><strong>Phone:</strong> 599158424</h3>
+          </li>
+          <li>
+            <h3><strong>Discord:</strong> luka_leki</h3>
+          </li>
+        </ul>
+      </div>
+      <div id="intro" class="intro">
+        <h2 style="text-align: center">Introduction</h2>
+        <p>
+          I am Luka Lekishvili, an aspiring developer from Georgia. My goal is
+          to write clean, maintainable, and efficient code to create new and
+          interesting projects.
+          <br />
+          I seek an environment where I can grow as a professional, and I
+          believe RS School and EPAM can help me achieve these goals. My main
+          priority is <strong>clean and readable code</strong>, since unreadable
+          code wastes teammates' time and slows development.
+          <br />
+          One of my strengths is persistence, I can tackle any task over time. I
+          approach challenges calmly, breaking projects into smaller parts so
+          they do not become overwhelming.
+          <br />
+          I have been coding for several years, creating many single-page
+          websites with various designs. Additionally, I have worked on more
+          advanced projects involving <strong>user authentication</strong> and
+          <strong>external APIs.</strong>
+        </p>
+      </div>
+      <div id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="ul-wrapper">
+          <ul>
+            <h3>Main Skills</h3>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+          <ul>
+            <h3>Libraries/Frameworks</h3>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>SASS</li>
+            <li>Tailwind</li>
+          </ul>
+          <ul>
+            <h3>Version Control</h3>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+          <ul>
+            <h3>Development & Build Tools</h3>
+            <li>npm</li>
+            <li>Vite</li>
+            <li>ESLint</li>
+            <li>Browser DevTools</li>
+          </ul>
+        </div>
+      </div>
+      <div id="code-example" class="code-example">
+        <h2>Code Example</h2>
+        <pre>
+            <code>
+        function moveZeros(arr) {
+            let myArr = [];
+            let zeroCount = 0;
+            let arrLength = arr.length;
+            for (let i = 0; i < arrLength; i++) {
+                if (arr[i] === 0) {
+                zeroCount++;
+                } else {
+                myArr.push(arr[i]);
+                }
+            }
+            for (let i = 0; i < zeroCount; i++) {
+                myArr.push(0);
+            }
+            return myArr;
+        }
+            </code>
+        </pre>
+      </div>
+      <div id="english-education" class="english-education">
+        <div>
+          <h2>English Level</h2>
+          <p>
+            I have been speaking English from a very young age, and my
+            university program is taught entirely in English. Therefore, my
+            English proficiency is at <strong>C1 level</strong>.
+          </p>
+        </div>
+        <div>
+          <h2>Education</h2>
+          <h3>
+            - Bachelor's Degree Computer Science | Tbilisi State University |
+            2024-2028 <br />
+            - Mziuri Certificate In Web Development | 2022 - 2023
+          </h3>
+        </div>
+        <div class="project">
+          <h2>Movie Search Website</h2>
+          <ul>
+            <li>
+              - Built a responsive web application using
+              <strong>Next.js</strong>, <strong>React</strong>, and
+              <strong>Tailwind CSS</strong>.
+            </li>
+            <li>
+              - Integrated a public movie API to fetch and display data
+              dynamically.
+            </li>
+            <li>
+              - Implemented loading states, error handling, and search filtering
+              for better UX.
+            </li>
+            <li>
+              - Focused on code quality, performance optimization, and reusable
+              components.
+            </li>
+          </ul>
+          <div class="movie-button-wrapper">
+            <a
+              href="http://gimdb.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="movie-button">Visit The Website</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <ul>
+          <li>
+            <img
+              class="school-logo"
+              src="./rs-school-logo.svg"
+              alt="rs-school logo"
+            />
+          </li>
+          <li>
+            <a href="https://github.com/lukaleki">GitHub</a>
+          </li>
+          <li>
+            <a href="https://rs.school/courses/short-track"
+              >Short-Track Course</a
+            >
+          </li>
+          <li>Date: 29.09.2025</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
