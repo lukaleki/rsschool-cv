@@ -10,7 +10,8 @@
 
 ## About Me
 
-Hi! I am Luka Lekishvili, an aspiring developer from Georgia.  
+Hi!
+I am Luka Lekishvili, an aspiring developer from Georgia.  
 My goal is to write clean, maintainable, and efficient code to create new and interesting projects.
 
 I seek an environment where I can grow as a professional, and I believe RS School and EPAM can help me achieve these goals. My main priority is **clean and readable code**, since unreadable code wastes teammates' time and slows development.
