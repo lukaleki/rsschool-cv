@@ -44,7 +44,7 @@
           </li>
         </ul>
       </div>
-      <div id="#intro" class="intro">
+      <div id="intro" class="intro">
         <h2 style="text-align: center">Introduction</h2>
         <p>
           I am Luka Lekishvili, an aspiring developer from Georgia. My goal is
@@ -66,7 +66,7 @@
           <strong>external APIs.</strong>
         </p>
       </div>
-      <div id="#skills" class="skills">
+      <div id="skills" class="skills">
         <h2>Skills</h2>
         <div class="ul-wrapper">
           <ul>
@@ -97,29 +97,28 @@
           </ul>
         </div>
       </div>
-      <div id="#code-example" class="code-example">
+      <div id="code-example" class="code-example">
         <h2>Code Example</h2>
-        <p>
-          function moveZeros(arr) <br />{ <br />
-          let myArr = []; <br />
-          let zeroCount = 0; <br />
-          let arrLength = arr.length; <br />
-          for (let i = 0; i < arrLength; i++) { <br />
-          if (arr[i] === 0) <br />
-          { <br />
-          zeroCount++; <br />
-          } <br />
-          else <br />
-          { <br />
-          myArr.push(arr[i]); <br />
-          } <br />
-          } <br />
-          for (let i = 0; i < zeroCount; i++) { <br />
-          myArr.push(0); <br />
-          } <br />
-          return myArr; <br />
-          }
-        </p>
+        <pre>
+            <code>
+        function moveZeros(arr) {
+            let myArr = [];
+            let zeroCount = 0;
+            let arrLength = arr.length;
+            for (let i = 0; i < arrLength; i++) {
+                if (arr[i] === 0) {
+                zeroCount++;
+                } else {
+                myArr.push(arr[i]);
+                }
+            }
+            for (let i = 0; i < zeroCount; i++) {
+                myArr.push(0);
+            }
+            return myArr;
+        }
+            </code>
+        </pre>
       </div>
     </div>
   </body>

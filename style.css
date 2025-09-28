@@ -101,4 +101,9 @@ nav {
 .code-example {
   padding: 10px;
   background-color: var(--accent-bg-color);
+  justify-items: center;
+}
+
+.code-example > pre {
+  font-size: larger;
 }
